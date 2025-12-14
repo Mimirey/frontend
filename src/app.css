@@ -1,0 +1,50 @@
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "bayambambam";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+
+  --color-base-100: oklch(98% 0.016 73.684);
+  --color-base-200: oklch(95% 0.038 75.164);
+  --color-base-300: oklch(82% 0.189 84.429);
+  --color-base-content: oklch(40% 0.101 131.063);
+
+  --color-primary: oklch(64% 0.2 131.684);
+  --color-primary-content: oklch(97% 0.071 103.193);
+
+  --color-secondary: oklch(94% 0.129 101.54);
+  --color-secondary-content: oklch(30% 0.056 229.695);
+
+  --color-accent: oklch(50% 0.213 27.518);
+  --color-accent-content: oklch(98% 0.031 120.757);
+
+  --color-neutral: oklch(40% 0.101 131.063);
+  --color-neutral-content: oklch(97% 0.017 320.058);
+
+  --color-info: oklch(40% 0.17 325.612);
+  --color-info-content: oklch(97% 0.013 236.62);
+
+  --color-success: oklch(62% 0.194 149.214);
+  --color-success-content: oklch(97% 0.021 166.113);
+
+  --color-warning: oklch(57% 0.245 27.325);
+  --color-warning-content: oklch(98% 0.016 73.684);
+
+  --color-error: oklch(57% 0.245 27.325);
+  --color-error-content: oklch(97% 0.013 17.38);
+
+  --radius-selector: 0rem;
+  --radius-field: 0rem;
+  --radius-box: 1rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 1;
+}
