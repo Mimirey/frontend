@@ -6,7 +6,7 @@
 <div class="container mx-auto px-4 py-8">
 	<!-- Header Section -->
 	<div class="text-center mb-12">
-		<h2 class="text-4xl font-bold text-gray-800 mb-3">Meet Our Characters</h2>
+		<h2 class="text-4xl font-bold text-gray-800 mb-3">Karakter Panganmu</h2>
 		<p class="text-gray-600 max-w-2xl mx-auto">Discover the unique personalities that bring our story to life</p>
 	</div>
 
