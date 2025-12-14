@@ -58,8 +58,6 @@
   on:dragover={handleDragOver}
   on:dragleave={handleDragLeave}
   on:drop={handleDrop}
-  on:click={handleClick}
-  on:keypress={(e) => e.key === 'Enter' && handleClick()}
   role="button"
   tabindex="0"
 >
